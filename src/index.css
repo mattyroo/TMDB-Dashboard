@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme{
+  --color-primary:#9B3922;
+  --color-secondary:#481E14;
+  --color-dark:#0C0C0C;
+  --color-light:#F2613F;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Elms Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
